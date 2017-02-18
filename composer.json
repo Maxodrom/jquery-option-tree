@@ -1,0 +1,32 @@
+{
+    "name": "maxodrom/jquery-option-tree",
+    "description": "Jquery option tree.",
+    "type": "yii2-extension",
+    "license": "BSD-3-Clause",
+    "support": {
+        "issues": "https://github.com/maxodrom/jquery-option-tree/issues",
+        "source": "https://github.com/maxodrom/jquery-option-tree"
+    },
+    "authors": [
+        {
+            "name": "Max Alexandrov",
+            "email": "max@7u3.ru"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "yiisoft/yii2": "~2.0.0"
+    },
+    "require-dev": {
+        "yiisoft/yii2-bootstrap": "~2.0.0",
+        "yiisoft/yii2-codeception": "~2.0",
+        "codeception/codeception": "~2.0",
+        "codeception/specify": "~0.4",
+        "codeception/verify": "~0.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "maxodrom\\assets\\": "src/"
+        }
+    }
+}
